@@ -1,0 +1,17 @@
+[
+    {
+        "Id": 1,
+        "Name": "Siravish",
+        "City": "Bangyai"
+    },
+    {
+        "Id": 2,
+        "Name": "Sureeporn",
+        "City": "Samroung"
+    },
+    {
+        "Id": 3,
+        "Name": "Serial",
+        "City": "Bangna"
+    }
+]
