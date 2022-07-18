@@ -13,6 +13,7 @@ var app = builder.Build();
 app.UseStaticFiles();
 
 app.MapGet("/", () => "Hello World!");
+app.MapGet("/Modi", () => "Hello Modi!");
 app.MapContactsApi();
 
 app.UseSwagger();
