@@ -24,6 +24,8 @@ public static class ContactApiExtensions
             return Results.Ok(value);
         });
 
+        // app.Map comment first
+
         return app;
     }
 }
