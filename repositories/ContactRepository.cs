@@ -15,4 +15,9 @@ public class ContactRepository {
         File.OpenRead("wwwroot/data/contacts.json"))?
         .FirstOrDefault(c => c.Id == id);
     }
+
+    public void DoNothing()
+    {
+        return;
+    }
 }
